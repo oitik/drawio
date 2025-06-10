@@ -7,34 +7,34 @@
         <mxCell id="vQSaiQfxS73kR9lanArh-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="vQSaiQfxS73kR9lanArh-1" target="vQSaiQfxS73kR9lanArh-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vQSaiQfxS73kR9lanArh-1" value="DATA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="vQSaiQfxS73kR9lanArh-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;DATA&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="320" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vQSaiQfxS73kR9lanArh-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="vQSaiQfxS73kR9lanArh-2" target="vQSaiQfxS73kR9lanArh-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vQSaiQfxS73kR9lanArh-2" value="GENERATE EMBEDDINGS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="vQSaiQfxS73kR9lanArh-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;GENERATE EMBEDDINGS&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="280" y="280" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vQSaiQfxS73kR9lanArh-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="vQSaiQfxS73kR9lanArh-4" target="vQSaiQfxS73kR9lanArh-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vQSaiQfxS73kR9lanArh-4" value="CLUSTERING MODEL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="vQSaiQfxS73kR9lanArh-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CLUSTERING MODEL&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="280" y="360" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vQSaiQfxS73kR9lanArh-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="vQSaiQfxS73kR9lanArh-6" target="vQSaiQfxS73kR9lanArh-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vQSaiQfxS73kR9lanArh-6" value="REPRESENTATION MODEL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="vQSaiQfxS73kR9lanArh-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;REPRESENTATION MODEL&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="280" y="440" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vQSaiQfxS73kR9lanArh-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="vQSaiQfxS73kR9lanArh-8" target="vQSaiQfxS73kR9lanArh-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vQSaiQfxS73kR9lanArh-8" value="BERT TOPIC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="vQSaiQfxS73kR9lanArh-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;BERT TOPIC&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="280" y="520" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vQSaiQfxS73kR9lanArh-10" value="LLM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="vQSaiQfxS73kR9lanArh-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;LLM&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="280" y="600" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
