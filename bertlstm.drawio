@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="28.2.0">
+  <diagram name="Page-1" id="Tv4S1_XMZNgIu9-9CskH">
+    <mxGraphModel dx="788" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J9J1D2orM6VpwN1BECp--1" value="Input IDs&lt;div&gt;(B, L)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J9J1D2orM6VpwN1BECp--5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J9J1D2orM6VpwN1BECp--2" target="J9J1D2orM6VpwN1BECp--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J9J1D2orM6VpwN1BECp--2" value="Bangla BERT Encoder&lt;div&gt;(B, L, H)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="230" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J9J1D2orM6VpwN1BECp--7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J9J1D2orM6VpwN1BECp--4" target="J9J1D2orM6VpwN1BECp--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J9J1D2orM6VpwN1BECp--4" value="BiLSTM&lt;div&gt;(B, L, 2H)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="300" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J9J1D2orM6VpwN1BECp--9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J9J1D2orM6VpwN1BECp--6" target="J9J1D2orM6VpwN1BECp--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J9J1D2orM6VpwN1BECp--6" value="&lt;div&gt;Select Last Step&lt;/div&gt;&lt;div&gt;(B, 2H)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="370" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J9J1D2orM6VpwN1BECp--11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J9J1D2orM6VpwN1BECp--8" target="J9J1D2orM6VpwN1BECp--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J9J1D2orM6VpwN1BECp--8" value="&lt;div&gt;Dropout&lt;/div&gt;&lt;div&gt;(B, 2H)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="440" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J9J1D2orM6VpwN1BECp--10" value="&lt;div&gt;Linear Classifier&lt;/div&gt;&lt;div&gt;(B, C)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="510" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J9J1D2orM6VpwN1BECp--12" value="Token Type IDs&lt;div&gt;(B, L)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J9J1D2orM6VpwN1BECp--14" value="&lt;div&gt;Attention Masks&lt;/div&gt;&lt;div&gt;(B, L)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J9J1D2orM6VpwN1BECp--16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J9J1D2orM6VpwN1BECp--1" target="J9J1D2orM6VpwN1BECp--2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="250" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J9J1D2orM6VpwN1BECp--17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J9J1D2orM6VpwN1BECp--14" target="J9J1D2orM6VpwN1BECp--2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J9J1D2orM6VpwN1BECp--19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J9J1D2orM6VpwN1BECp--12" target="J9J1D2orM6VpwN1BECp--2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
